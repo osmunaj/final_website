@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="apcsp_final.css">
+        <title>Scale Guide For Beginners</title>
+    </head>
+    <body>
+            <h1 class = "center">A Scale Guide for Beginner Musicians!</h1>
+            <p class = "center">Just imput your tonic into the box, select a type of scale, and press go! The website will show you your scale!</p>
+        <form name="scale_form" class = "border">
+            <br>
+            
+            <br>
+            <label for="tonic" class = heading>Type your scale here!</label>
+            <br>
+            <input class = "blue"type="text" name="tonic" id = "tonic" placeholder="ex: A, F#, Eb">
+            
+            <select class = "blue" name="scales" >
+                <option class = "blue" value="major">Ionion (Major)</option>
+                <option class = "blue" value="dorian_mode">Dorian Mode</option>
+                <option class = "blue" value="phrygian_mode">Phrygian Mode</option>
+                <option class = "blue" value="lydian_mode">Lydian Mode</option>
+                <option class = "blue" value="mixolydian_mode">Mixolydian Mode</option>
+                <option class = "blue" value="natural_minor">Aeolian Mode (Natural Minor)</option>
+                <option class = "blue" value="locrian_mode">Locrian Mode </option>
+
+                <option class = "blue" value="harmonic_minor">Harmonic Minor</option>
+                
+                
+                <option class = "blue" value="blues">Blues</option>
+            </select>
+            <br>
+            <br>
+            <br>
+            <input class = "blue" type="button" id = "load" value="Go!">
+            <br>
+        </form>
+        <h2 class = center>Your scale: </h2>
+        <p id = "type" class = center>Imput your scale!</p>
+        <p id = "final" class = "center"></p>
+        <a href="mission_statement.html" class = "blue">My mission statement</a>
+       
+        <script src = "apcsp_final.js"></script>
+    </body>
+</html>
